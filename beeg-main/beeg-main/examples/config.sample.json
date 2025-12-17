@@ -1,0 +1,10 @@
+{
+  "transport": "ssh",
+  "ssh_user": "beegadmin",
+  "nodes": [
+    { "name": "node-a", "host": "10.0.0.11", "labels": ["gpu"] },
+    { "name": "node-b", "host": "10.0.0.12", "labels": ["gpu"] },
+    { "name": "node-c", "host": "10.0.0.13", "labels": [] }
+  ]
+}
+
